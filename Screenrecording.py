@@ -101,7 +101,7 @@ class SettingsAutomation:
         file_path = os.path.join(documents_path, filename)
         with open(file_path, 'wb') as f:
             f.write(base64.b64decode(video_base64))
-        print(f"Screen recording saved at: {file_path}")
+        print(f"Screen Recording saved at: {file_path}")
 
     def run_automation(self):
         print("Starting Android Settings Automation")
