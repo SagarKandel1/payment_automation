@@ -50,9 +50,9 @@ class SettingsAutomation:
         except Exception as e:
             print(f" Scroll failed: {e}")
 
-    def find_system_section(self, max_scrolls=10):
+    def find_system_section(self, max_scrolls=5):
         """Scroll down until System section is found"""
-        print("🔍 Looking for 'System' section...")
+        print(" Looking for 'System' section...")
 
         for scroll_count in range(max_scrolls):
             try:
